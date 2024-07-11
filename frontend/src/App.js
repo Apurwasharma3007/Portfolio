@@ -8,6 +8,7 @@ import Contact from './Pages/Contact';
 import Projects from './Pages/Projects';
 import Confirmation from './Pages/Confirmation';
 import Technologies from './Pages/Technologies';
+import Main from './Pages/Main';
 function App() {
 
   return (
@@ -17,7 +18,7 @@ function App() {
           
             <Header />
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<Main />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/projects" element={<Projects />} />

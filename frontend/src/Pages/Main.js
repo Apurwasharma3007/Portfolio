@@ -8,7 +8,7 @@ import Technologies from "./Technologies";
 const Main = () => {
   return (
     <>
-    <Header/>
+    
     <Home/>
     <About/>
     <Technologies/>

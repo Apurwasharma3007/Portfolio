@@ -71,7 +71,7 @@ function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-w-screen-xl section md:flex justify-between items-center px-4 md:px-0 bg-white dark:bg-dark-mode">
+    <main className="container mx-auto max-w-screen-xl  md:flex justify-between items-center px-4 pb-20 bg-white dark:bg-dark-mode mt-10">
       <div>
         <h1
           ref={h11}
@@ -104,7 +104,7 @@ function Home() {
       <div className="mt-5 md:mt-0">
         <img
           ref={myimageref}
-          className="w-full md:w-2/3 xl:w-1/2 md:ml-auto"
+          className="w-full md:w-full xl:w-full md:ml-auto"
           src={img}
           alt="Apurwa Sharma"
           onError={(e) => (e.target.src = "path/to/fallback/image.jpg")}

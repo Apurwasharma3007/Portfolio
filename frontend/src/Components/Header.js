@@ -120,15 +120,7 @@ function Header() {
               {isDarkMode ? "Light" : "Dark"}
             </button>
           </li>
-          <li>
-            <a
-              href="/apurwa_cv.pdf"
-              download
-              className="p-2 bg-blue-500 text-white rounded-full flex items-center justify-center transition duration-300 ease-in-out"
-            >
-              Download CV
-            </a>
-          </li>
+         
         </ul>
       </nav>
     </header>
